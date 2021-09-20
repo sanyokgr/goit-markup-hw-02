@@ -22,25 +22,27 @@ body {
   list-style: none;
 }
 
-.curent,
-.logo-first-word {
-  color: var(--logo-first-text-color);
-}
 .logo-prop {
   font-family: Raleway;
   font-weight: bold;
   font-size: 26px;
   line-height: calc(31 / 26);
 }
+
 .header-logo {
   color: var(--logo-second-text-color);
 }
 
 .header-link {
+  color: inherit;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
+}
+.curent,
+.logo-first-word {
+  color: var(--logo-first-text-color);
 }
 
 .header-contacts-link {
@@ -78,11 +80,11 @@ body {
 }
 
 .hero-btn {
+  cursor: pointer;
   font-family: inherit;
   font-weight: bold;
   font-size: 16px;
   line-height: 1.87;
-  align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--primary-title-color);
@@ -133,7 +135,18 @@ body {
   line-height: calc(19 / 16);
   color: var(--primary-text-color);
 }
+.job-interpretation {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
 
+.job-title {
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--primary-text-color);
+}
 /* Footer */
 
 .footer-logo {
