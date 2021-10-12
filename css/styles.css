@@ -98,6 +98,7 @@ body {
   color: var(--primary-title-color);
   background-color: var(--logo-first-text-color);
 }
+
 .btn-item {
   background-color: #f5f4fa;
   font-weight: 500;
@@ -105,13 +106,14 @@ body {
   line-height: 1.62;
   text-align: center;
 }
+
 .btn-item:focus,
 .btn-item:hover {
   background-color: #2196f3;
   color: var(--primary-title-color);
 }
 
-/* Секция features */
+/*----------------- Секция features ----------------------*/
 
 .features-header {
   font-weight: bold;
